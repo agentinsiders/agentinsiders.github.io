@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo variants</title>
+<style>
+:root{--paper:#f2efe8;--ink:#14171c;--mute:#5d6068}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:40px 16px 64px}
+h1{font-size:28px;margin:0 0 8px}
+h2{font-size:18px;margin:40px 0 4px;font-family:"IBM Plex Mono",ui-monospace,monospace}
+p{margin:0 0 16px;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);border:2px solid var(--ink);border-right:0}
+.c{border-right:2px solid var(--ink);min-width:0}
+.c h3{margin:0;padding:6px 10px;font-size:13px;font-weight:500;border-bottom:2px solid var(--ink)}
+.c .big{display:block;width:100%;height:auto;padding:12px}
+.s{display:flex;align-items:center;gap:12px;padding:8px 10px;border-top:2px solid var(--ink)}
+.s.d{background:var(--ink)}
+@media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr)}.c:nth-child(-n+2){border-bottom:2px solid var(--ink)}}
+</style>
+</head>
+<body>
+<main>
+<h1>Logo variants</h1>
+<p>Rows change what the green agent is doing. Columns change the insiders' faces. Under each one you can see it at 48 and 24 pixels on light and dark.</p>
+<h2>A. No hands</h2>
+<p>Just the three figures.</p>
+<div class="grid">
+<div class="c"><h3>Horns and fangs</h3><img class="big" src="plain-horns-fangs.svg" alt="A. No hands, Horns and fangs"><div class="s"><img src="plain-horns-fangs.svg" width="48" alt=""><img src="plain-horns-fangs.svg" width="24" alt=""></div><div class="s d"><img src="plain-horns-fangs.svg" width="48" alt=""><img src="plain-horns-fangs.svg" width="24" alt=""></div></div>
+<div class="c"><h3>No fangs</h3><img class="big" src="plain-no-fangs.svg" alt="A. No hands, No fangs"><div class="s"><img src="plain-no-fangs.svg" width="48" alt=""><img src="plain-no-fangs.svg" width="24" alt=""></div><div class="s d"><img src="plain-no-fangs.svg" width="48" alt=""><img src="plain-no-fangs.svg" width="24" alt=""></div></div>
+<div class="c"><h3>No horns</h3><img class="big" src="plain-no-horns.svg" alt="A. No hands, No horns"><div class="s"><img src="plain-no-horns.svg" width="48" alt=""><img src="plain-no-horns.svg" width="24" alt=""></div><div class="s d"><img src="plain-no-horns.svg" width="48" alt=""><img src="plain-no-horns.svg" width="24" alt=""></div></div>
+<div class="c"><h3>Neither</h3><img class="big" src="plain-neither.svg" alt="A. No hands, Neither"><div class="s"><img src="plain-neither.svg" width="48" alt=""><img src="plain-neither.svg" width="24" alt=""></div><div class="s d"><img src="plain-neither.svg" width="48" alt=""><img src="plain-neither.svg" width="24" alt=""></div></div>
+</div>
+<h2>B. Laptop, unplugged</h2>
+<p>An insider has pulled the plug and the cord has snapped. The green agent looks surprised.</p>
+<div class="grid">
+<div class="c"><h3>Horns and fangs</h3><img class="big" src="laptop-horns-fangs.svg" alt="B. Laptop, unplugged, Horns and fangs"><div class="s"><img src="laptop-horns-fangs.svg" width="48" alt=""><img src="laptop-horns-fangs.svg" width="24" alt=""></div><div class="s d"><img src="laptop-horns-fangs.svg" width="48" alt=""><img src="laptop-horns-fangs.svg" width="24" alt=""></div></div>
+<div class="c"><h3>No fangs</h3><img class="big" src="laptop-no-fangs.svg" alt="B. Laptop, unplugged, No fangs"><div class="s"><img src="laptop-no-fangs.svg" width="48" alt=""><img src="laptop-no-fangs.svg" width="24" alt=""></div><div class="s d"><img src="laptop-no-fangs.svg" width="48" alt=""><img src="laptop-no-fangs.svg" width="24" alt=""></div></div>
+<div class="c"><h3>No horns</h3><img class="big" src="laptop-no-horns.svg" alt="B. Laptop, unplugged, No horns"><div class="s"><img src="laptop-no-horns.svg" width="48" alt=""><img src="laptop-no-horns.svg" width="24" alt=""></div><div class="s d"><img src="laptop-no-horns.svg" width="48" alt=""><img src="laptop-no-horns.svg" width="24" alt=""></div></div>
+<div class="c"><h3>Neither</h3><img class="big" src="laptop-neither.svg" alt="B. Laptop, unplugged, Neither"><div class="s"><img src="laptop-neither.svg" width="48" alt=""><img src="laptop-neither.svg" width="24" alt=""></div><div class="s d"><img src="laptop-neither.svg" width="48" alt=""><img src="laptop-neither.svg" width="24" alt=""></div></div>
+</div>
+</main>
+</body>
+</html>
