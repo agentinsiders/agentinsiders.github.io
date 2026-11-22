@@ -99,11 +99,15 @@ h1, h2, h3, h4, p { margin: 0; }
 
 /* hero crest: logo in a registration frame with layer call-outs */
 .crest { position: relative; border: 1px solid rgba(242,239,232,.4); padding: 30px 28px 0; }
-.crest::before, .crest::after {
-  content: ""; position: absolute; width: 14px; height: 14px; border: 2px solid var(--paper);
+.crest::before {
+  content: ""; position: absolute; inset: -2px; pointer-events: none; background-repeat: no-repeat;
+  background:
+    linear-gradient(var(--paper) 0 0) top left / 14px 2px, linear-gradient(var(--paper) 0 0) top left / 2px 14px,
+    linear-gradient(var(--paper) 0 0) top right / 14px 2px, linear-gradient(var(--paper) 0 0) top right / 2px 14px,
+    linear-gradient(var(--paper) 0 0) bottom left / 14px 2px, linear-gradient(var(--paper) 0 0) bottom left / 2px 14px,
+    linear-gradient(var(--paper) 0 0) bottom right / 14px 2px, linear-gradient(var(--paper) 0 0) bottom right / 2px 14px;
+  background-repeat: no-repeat;
 }
-.crest::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
-.crest::after { top: -2px; right: -2px; border-left: 0; border-bottom: 0; }
 .crest img { width: 100%; }
 .crest .tagrow { position: absolute; top: 10px; left: 12px; right: 12px; display: flex; justify-content: space-between; font: 500 10.5px var(--mono); letter-spacing: .1em; color: #8d929d; text-transform: uppercase; }
 .layers { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgba(242,239,232,.4); border-top: 0; }
