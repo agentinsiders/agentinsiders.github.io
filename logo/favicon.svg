@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" fill="#F2EFE8"/>
-<g stroke="#2D2829" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
-<path d="M13 16 C7 12 6 6 9 1 C11 7 15 9 21 10 Z M35 16 C41 12 42 6 39 1 C37 7 33 9 27 10 Z" fill="#F1E8D4"/>
-<path d="M4 66 C4 44 12 38 24 38 C36 38 44 44 44 66 Z" fill="#AD4B41"/>
-<circle cx="24" cy="26" r="16" fill="#D27A6B"/>
-<path d="M12 18 L21 23 M36 18 L27 23" fill="none" stroke-width="4.5"/>
-<path d="M15 31 H33 Q32 39 24 39 Q16 39 15 31 Z" fill="#3A1D20" stroke-width="2.5"/>
-<path d="M17.5 32 h5 l-2.5 5.5 Z M25.5 32 h5 l-2.5 5.5 Z" fill="#FBF7EC" stroke="none"/>
-<path d="M22 66 C22 50 30 45 43 45 C56 45 64 50 64 66 Z" fill="#6DAE8A"/>
-<circle cx="43" cy="36" r="16" fill="#F1D2AD"/>
-<path d="M33.5 35 q3.5 -5.5 7 0 M45.5 35 q3.5 -5.5 7 0 M36.5 41.5 q6.5 6.5 13 0" fill="none"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -84 100 100"><title>AgentInsiders</title><g transform="rotate(0 0 8)"><rect x="-3.5" y="-68" width="7" height="18" fill="#E8322C"/><circle cx="0" cy="-72" r="8.5" fill="#E8322C"/><circle cx="-36" cy="-21" r="11.0" fill="#C0201C"/><circle cx="36" cy="-21" r="11.0" fill="#C0201C"/><rect x="-37" y="-54" width="74" height="64" rx="25" fill="#E8322C"/><rect x="-29.5" y="-46.5" width="59.0" height="49" rx="18" fill="#FFF2EF"/><rect x="-22.0" y="-35" width="44.0" height="26" rx="11.5" fill="#4A0A0E"/><g transform="translate(0.0,0)"><path d="M-17,-28 L-4.5,-21.5 A6.8,6.8 0 0 1 -17,-18 Z M17,-28 L4.5,-21.5 A6.8,6.8 0 0 0 17,-18 Z" fill="#FFFFFF"/></g></g></svg>

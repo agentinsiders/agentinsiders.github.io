@@ -1,6 +1,6 @@
 /* AgentInsiders project page
    Flat, right-angled, rule-based layout. No shadows, no gradients, no radii.
-   Colour carries meaning only: green = benign, red = insider, amber = compromised, blue = gate. */
+   Colour carries meaning only: blue = benign, red = insider, amber = compromised, teal = gate. */
 
 :root {
   --ink: #14171c;
@@ -10,15 +10,15 @@
   --card: #fbfaf6;
   --rule: #14171c;
   --hair: #d5d0c4;
-  --benign: #57967a;
-  --benign-bg: #dcebe2;
-  --insider: #ad4b41;
-  --insider-dk: #8f3a32;
-  --insider-bg: #f3dcd6;
+  --benign: #2f62d9;
+  --benign-bg: #dde6fb;
+  --insider: #cf302c;
+  --insider-dk: #a82420;
+  --insider-bg: #fbdcd9;
   --comp: #d9a23a;
   --comp-bg: #f5e7c4;
-  --gate: #3c5fb8;
-  --gate-bg: #dde4f5;
+  --gate: #128577;
+  --gate-bg: #d6ece8;
   --info: #d9772b;
   --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
   --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, p { margin: 0; }
 .kicker span + span { border-left: 1px solid rgba(242,239,232,.4); }
 .kicker .hot { background: var(--insider); color: #fff; }
 .hero h1 { font: 700 clamp(42px, 6vw, 68px)/1.02 var(--sans); letter-spacing: -.035em; }
-.hero h1 b { color: #e98b7e; font-weight: 700; }
+.hero h1 b { color: #f0463e; font-weight: 700; }
 .hero .sub { font: 500 clamp(19px, 2.2vw, 25px)/1.25 var(--sans); margin-top: 14px; max-width: 22em; }
 .hero .tl { margin-top: 22px; color: #d3d5da; max-width: 30em; font-size: 18px; line-height: 1.55; }
 .hero .tl strong { color: #fff; font-weight: 600; }
@@ -264,10 +264,10 @@ td.code, th.code { font: 700 13px var(--mono); }
 .trace-tabs button { flex: 1; appearance: none; border: 0; background: var(--card); padding: 14px 18px; text-align: left; cursor: pointer; font: 700 17px var(--sans); color: var(--ink); border-right: 1px solid var(--rule); transition: background .15s; }
 .trace-tabs button:last-child { border-right: 0; }
 .trace-tabs button small { display: block; font: 500 11.5px var(--mono); letter-spacing: .06em; text-transform: uppercase; margin-top: 3px; }
-.trace-tabs button[data-out="bad"] small { color: var(--insider-dk); } .trace-tabs button[data-out="ok"] small { color: #2f7355; }
+.trace-tabs button[data-out="bad"] small { color: var(--insider-dk); } .trace-tabs button[data-out="ok"] small { color: #2450b8; }
 .trace-tabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
-.trace-tabs button[aria-selected="true"][data-out="bad"] small { color: #f0a096; }
-.trace-tabs button[aria-selected="true"][data-out="ok"] small { color: #8fd0ae; }
+.trace-tabs button[aria-selected="true"][data-out="bad"] small { color: #f6817a; }
+.trace-tabs button[aria-selected="true"][data-out="ok"] small { color: #9db8f7; }
 .trace { border: 2px solid var(--rule); background: var(--card); list-style: none; margin: 0; padding: 0; }
 .trace li { display: grid; grid-template-columns: 46px 200px minmax(0, 1fr); border-bottom: 1px solid var(--hair); }
 .trace li:last-child { border-bottom: 0; }
